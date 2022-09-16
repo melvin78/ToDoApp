@@ -1,0 +1,55 @@
+﻿@using ToDoApp.Features.CurrentTitle
+@inherits BlazorState.BlazorStateComponent
+<div class="col-span-1">
+	<aside class="w-64" aria-label="Sidebar">
+		<div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800" style="height: 2000px">
+			<ul class="space-y-2 mt-4">
+				<li @onclick='() => ChangeTitle("My Day")'>
+					<a href="my-day" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<MyDayImage/>
+						<span class="flex-1 ml-3 whitespace-nowrap">My Day</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+							My Day @CurrentTitleState.Title
+						</span> 
+					</a>
+				</li>
+				<li @onclick='() => ChangeTitle("Important")'>
+					<a href="my-important" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<ImportantImage/>
+						<span class="flex-1 ml-3 whitespace-nowrap">Important</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+							Important
+						</span>
+					</a>
+				</li>
+				<li @onclick='() => ChangeTitle("Planned")'>
+					<a href="my-planned" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<PlannedImage/>
+						<span class="flex-1 ml-3 whitespace-nowrap">Planned</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+							Planned
+						</span>
+					</a>
+				</li>
+				<li @onclick='() => ChangeTitle("My Tasks")'>
+					<a href="my-tasks" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<MyTasksImage></MyTasksImage>
+						<span class="flex-1 ml-3 whitespace-nowrap">My Tasks</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+						</span>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+	</aside>
+</div>
+@code {
+	CurrentTitleState CurrentTitleState => GetState<CurrentTitleState>();
+	
+	async Task ChangeTitle(string title)
+	{
+		await Mediator.Send(new CurrentTitleState.ChangeCurrentTitleAction() { CurrentTitle = title });
+	}
+
+}

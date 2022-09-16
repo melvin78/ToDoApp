@@ -1,0 +1,26 @@
+﻿@using MediatR
+@using ToDoApp.Features.CurrentTitle
+@using BlazorState
+@inherits LayoutComponentBase
+
+<div>
+    
+	<NavMenu/>
+   
+	<div class="grid grid-cols-4">
+		<SideBarComponent></SideBarComponent>
+		<div class="col-span-3">
+			@Body
+		</div>
+	</div>
+        
+  
+</div>
+
+@code{
+
+	
+	
+	
+
+}
