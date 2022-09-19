@@ -8,15 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Blazor-State" Version="5.0.3" />
+        <PackageReference Include="Fluxor" Version="5.5.0-Beta1" />
+        <PackageReference Include="Fluxor.Blazor.Web" Version="5.5.0-Beta1" />
+        <PackageReference Include="Fluxor.Persist" Version="2.2.0" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.1" PrivateAssets="all" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Features\Actions" />
-      <Folder Include="Features\Handlers" />
-      <Folder Include="Features\States" />
     </ItemGroup>
 
 </Project>

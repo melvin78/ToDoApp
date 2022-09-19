@@ -1,0 +1,29 @@
+﻿@using ToDoApp.Models
+@using ToDoApp.State.ToDo
+@using Fluxor
+@inject IState<ToDoState> toDoState
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<PageTitle>My Day</PageTitle>
+<InputTaker ToDoIdentifier="@((int) ToDoIdentifier.MyDay)" ButtonName="Add My Day's tasks "></InputTaker>
+<section class="text-gray-600 body-font">
+    <div class="container px-5 mx-auto">
+
+        <div class="flex flex-wrap -m-4" style="max-height: 400px; overflow: auto">
+            @if (toDoState.Value.ToDoItem is not null)
+            {
+                @foreach (var todo in toDoState.Value.ToDoItem)
+                {
+                    <ToDoCard TaskName="@todo.Title" IsDone="@todo.IsDone" Id="@todo.Id" Identifier="@todo.ToDoIdentifier"></ToDoCard>
+                }
+            }
+
+        </div>
+    </div>
+</section>
+
+
+@code {
+
+
+}

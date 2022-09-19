@@ -1,0 +1,57 @@
+﻿@using FluxorWithBlazor.State.CurrentTitle
+@using Fluxor
+@using ToDoApp.Models
+@using ToDoApp.State.ToDo
+@inject IDispatcher dispatcher
+@inject IState<CurrentTitleState> currentTitleState
+@inject IState<ToDoState> toDoState
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+<div class="col-span-1">
+	<aside class="w-64" aria-label="Sidebar">
+		<div class="overflow-y-auto py-4 px-3  rounded dark:bg-gray-800" style="height: 100vh">
+			<ul class="space-y-2 mt-4">
+				<li @onclick='() => IncrementCount("My Day")'>
+					<a href="my-day" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<MyDayImage/>
+						<span class="flex-1 ml-3 whitespace-nowrap text-white">My Day</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+							My Day 
+						</span>
+						<span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">@toDoState.Value.ToDoItem?.Count(x=>x.ToDoIdentifier is (int)ToDoIdentifier.MyDay or (int)ToDoIdentifier.Important)</span>
+					</a>
+				</li>
+				<li @onclick='() => IncrementCount("Important")'>
+					<a href="my-important" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<ImportantImage/>
+						<span class="flex-1 ml-3 whitespace-nowrap text-white">Important</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+							Important
+						</span>
+						<span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">@toDoState.Value.ToDoItem?.Count(x => x.ToDoIdentifier== (int)ToDoIdentifier.Important)</span>
+
+					</a>
+				</li>
+				<li @onclick='() => IncrementCount("Planned")'>
+					<a href="complete" class=" group relative inline-block flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<PlannedImage/>
+						<span class="flex-1 ml-3 whitespace-nowrap text-white">Completed</span>
+						<span class="absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+							Completed
+						</span>
+						<span class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">@toDoState.Value.ToDoItem?.Count(x => x.IsDone)</span>
+
+					</a>
+				</li>
+			</ul>
+		</div>
+	</aside>
+</div>
+@code {
+
+	private void IncrementCount(string title)
+	{
+		dispatcher.Dispatch(new ChangeCurrentTitleAction(title));
+	}
+
+}
