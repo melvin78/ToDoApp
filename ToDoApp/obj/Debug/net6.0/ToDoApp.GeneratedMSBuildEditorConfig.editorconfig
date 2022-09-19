@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ToDoApp
+build_property.RootNamespace = ToDoApp
+build_property.ProjectDir = D:\t\ToDo\ToDoApp\ToDoApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\t\ToDo\ToDoApp\ToDoApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/Cards/Complete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkc1xDb21wbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/Cards/Important.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkc1xJbXBvcnRhbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/CompleteComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xDb21wbGV0ZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/ImportantComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xJbXBvcnRhbnRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/ImportantImage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xJbXBvcnRhbnRJbWFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/MyDayComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xNeURheUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/MyDayImage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xNeURheUltYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/MyTasksImage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xNeVRhc2tzSW1hZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/PlannedImage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xQbGFubmVkSW1hZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/SideBarComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xTaWRlQmFyQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/PageComponents/TrashBin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQ29tcG9uZW50c1xUcmFzaEJpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/ReUsable/InputTaker.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZVVzYWJsZVxJbnB1dFRha2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/ReUsable/NothingYet.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZVVzYWJsZVxOb3RoaW5nWWV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Components/ReUsable/ToDoCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZVVzYWJsZVxUb0RvQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Pages/Complete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Pages/Important.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW1wb3J0YW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Pages/MyDay.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlEYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ljsmefs406
+
+[D:/t/ToDo/ToDoApp/ToDoApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-krhm8xhs33

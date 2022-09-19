@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {}
+  },
+  "projects": {
+    "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "projectName": "ToDoApp",
+        "projectPath": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "packagesPath": "C:\\Users\\ochie\\.nuget\\packages\\",
+        "outputPath": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ochie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Fluxor": {
+              "target": "Package",
+              "version": "[5.5.0-Beta1, )"
+            },
+            "Fluxor.Blazor.Web": {
+              "target": "Package",
+              "version": "[5.5.0-Beta1, )"
+            },
+            "Fluxor.Persist": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.9, 6.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
