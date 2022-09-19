@@ -1,4 +1,6 @@
-﻿namespace ToDoApp.Models;
+﻿using System;
+
+namespace ToDoApp.Models;
 
 public class ToDoItem
 {
