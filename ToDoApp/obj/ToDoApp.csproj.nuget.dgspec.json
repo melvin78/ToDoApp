@@ -40,9 +40,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Blazor-State": {
+            "Fluxor": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.5.0-Beta1, )"
+            },
+            "Fluxor.Blazor.Web": {
+              "target": "Package",
+              "version": "[5.5.0-Beta1, )"
+            },
+            "Fluxor.Persist": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",

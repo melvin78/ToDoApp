@@ -1,0 +1,84 @@
+﻿@using ToDoApp.Models
+@using FluxorWithBlazor.State.CurrentTitle
+@using Fluxor
+@using ToDoApp.State.ToDo
+@inject IDispatcher dispatcher
+@inject IState<ToDoState> toDoState
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+
+<section class="text-gray-600 body-font">
+    <div class="container py-4 mx-auto">
+        <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <div>
+                <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Task name</label>
+                <input @bind="newTodo" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full
+                  p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Add Task" required>
+            </div>
+            <button @onclick="AddTodo" class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">@ButtonName</button>
+        </div>
+        @if (toDoState.Value.ToDoItem?.Count == 0)
+        {
+            <NothingYet></NothingYet>
+        }
+
+    </div>
+</section>
+
+
+@code {
+
+
+    private List<ToDoItem> todos = new();
+
+    private bool Iscomplete = false;
+    
+    private string? newTodo;
+
+
+    [Parameter]
+    public int ToDoIdentifier { get; set; }
+    
+    [Parameter]
+    public string ButtonName { get; set; }
+
+    
+    private void MarkAsComplete()
+    {
+        Iscomplete = !Iscomplete;
+    }
+    
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            if (toDoState.Value.ToDoItem?.Count == 0)
+            {
+                todos.Add(new ToDoItem {Title = newTodo,IsDone = Iscomplete, ToDoIdentifier = ToDoIdentifier, Id = Guid.NewGuid()});
+    
+                newTodo = string.Empty;
+
+                Iscomplete = false;
+
+                dispatcher.Dispatch(new AddToDoStateAction(todos));
+            }
+
+            else
+            {
+                if (toDoState.Value.ToDoItem != null)
+                    dispatcher.Dispatch(new UpdateToDoStateAction(toDoState.Value.ToDoItem, new ToDoItem()
+                    {
+                        Title = newTodo,
+                        IsDone = Iscomplete,
+                        ToDoIdentifier = ToDoIdentifier,
+                        Id = Guid.NewGuid()
+                    }));
+            }
+        
+            
+        }
+    }
+
+
+}

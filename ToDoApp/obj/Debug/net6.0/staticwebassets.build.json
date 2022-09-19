@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tlTLjPA5N2tFydUwJLh/CfS0RqETKsdcIeaU0c/ssIo=",
+  "Hash": "Nsm3sdpZMdpiHiPWMgETPGgjgvZNcrQLDxAqrOMn+co=",
   "Source": "ToDoApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,176 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\blazor-state.lib.module.js",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/blazor-state.lib.module.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "JSModule",
-      "AssetTraitValue": "JSLibraryModule",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\blazor-state.lib.module.js"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\blazor-state.lib.module.js.map",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/blazor-state.lib.module.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\blazor-state.lib.module.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\BlazorState.js",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/BlazorState.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\BlazorState.js"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\BlazorState.js.map",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/BlazorState.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\BlazorState.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\Constants.js",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/Constants.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\Constants.js"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\Constants.js.map",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/Constants.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\Constants.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\ReduxDevTools.js",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/ReduxDevTools.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\ReduxDevTools.js"
-    },
-    {
-      "Identity": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\ReduxDevTools.js.map",
-      "SourceId": "Blazor-State",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\",
-      "BasePath": "_content/Blazor-State",
-      "RelativePath": "js/ReduxDevTools.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\staticwebassets\\js\\ReduxDevTools.js.map"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AnyClone.dll",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/AnyClone.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\anyclone\\1.1.2\\lib\\netstandard2.1\\AnyClone.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor-State.dll",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Blazor-State.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\blazor-state\\5.0.3\\lib\\net6.0\\Blazor-State.dll"
-    },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "ToDoApp",
@@ -272,6 +102,57 @@
       "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.Blazor.Web.dll",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Fluxor.Blazor.Web.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\fluxor.blazor.web\\5.5.0-beta1\\lib\\net6.0\\Fluxor.Blazor.Web.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.dll",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Fluxor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\fluxor\\5.5.0-beta1\\lib\\net6.0\\Fluxor.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.Persist.dll",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Fluxor.Persist.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\fluxor.persist\\2.2.0\\lib\\net6.0\\Fluxor.Persist.dll"
+    },
+    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -340,57 +221,6 @@
       "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/MediatR.Contracts.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\mediatr.contracts\\1.0.1\\lib\\netstandard2.0\\MediatR.Contracts.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.dll",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/MediatR.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\mediatr\\10.0.1\\lib\\netstandard2.1\\MediatR.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Extensions.Microsoft.DependencyInjection.dll",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\lib\\netstandard2.1\\MediatR.Extensions.Microsoft.DependencyInjection.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -405,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -422,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -439,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -456,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -490,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -694,7 +524,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -762,7 +592,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.jsinterop\\6.0.3\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\microsoft.jsinterop\\6.0.1\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -1731,7 +1561,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\system.io.pipelines\\6.0.2\\lib\\net6.0\\System.IO.Pipelines.dll"
+      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\system.io.pipelines\\6.0.1\\lib\\net6.0\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll",
@@ -3621,23 +3451,6 @@
       "OriginalItemSpec": "obj\\Debug\\net6.0\\ToDoApp.pdb"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\TypeSupport.dll",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/TypeSupport.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ochie\\.nuget\\packages\\typesupport\\1.1.12\\lib\\net5.0\\TypeSupport.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -3706,6 +3519,23 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.NonGeneric.dll"
     },
     {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\+ync9DSL.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\0aqdFYTD.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -3721,23 +3551,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Expressions.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\0PNLvdGA.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/MediatR.Extensions.Microsoft.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Extensions.Microsoft.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Extensions.Microsoft.DependencyInjection.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\0rUCC8lc.gz",
@@ -3944,23 +3757,6 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\3ofmrL0B.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Blazor-State.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor-State.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor-State.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\4zLThTtO.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -3995,7 +3791,7 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\52bcRYqa.gz",
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\5+S4jC5F.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
       "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
@@ -4250,23 +4046,6 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Parallel.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\AC3qPIpf.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\AcGlnPgs.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -4454,21 +4233,38 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\bjLLrZGp.gz",
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\Bh+h8dgj.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
       "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "RelativePath": "_framework/Fluxor.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\bHDAkWfy.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\bna0NbU4.gz",
@@ -4486,23 +4282,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\BQkkFtRF.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/MediatR.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\CaKZVURb.gz",
@@ -4588,6 +4367,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Timer.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\cT8vh8dK.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\D0EY7p4n.gz",
@@ -4692,23 +4488,6 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.Extensions.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\dkD+rBRR.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\dm75aGhD.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -4724,23 +4503,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\dmXCf++D.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/TypeSupport.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\TypeSupport.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\TypeSupport.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\dQc22eM+.gz",
@@ -4845,23 +4607,6 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\mscorlib.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\e6Kqi7RH.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\e9RjJdq3.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -4877,23 +4622,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Mail.dll"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\eafT4v5S.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\eAHFr2t8.gz",
@@ -5610,6 +5338,23 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.dll"
     },
     {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\LuOqsaRF.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Fluxor.Blazor.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.Blazor.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.Blazor.Web.dll"
+    },
+    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\Lvx1EqO2.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -5659,6 +5404,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\M5wjxNB+.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\M9iVzFgx.gz",
@@ -6035,23 +5797,6 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebClient.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\pZCMwUKb.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/MediatR.Contracts.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\PzksVUjC.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -6135,23 +5880,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat"
-    },
-    {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\QMiEZJ8m.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\qmTZ5vgy.gz",
@@ -6356,6 +6084,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Primitives.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\s2ndUbto.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Fluxor.Persist.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.Persist.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Fluxor.Persist.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\SBOsKkR0.gz",
@@ -6647,6 +6392,23 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.dll"
     },
     {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\Ux1RohTO.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
+    },
+    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\V0S6fSgQ.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -6834,21 +6596,21 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\x4tV6Ex6.gz",
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\Wt1tU+5F.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
       "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/AnyClone.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AnyClone.dll",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AnyClone.dll"
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\x62q9Hc+.gz",
@@ -7021,23 +6783,6 @@
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
     },
     {
-      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\YRczdQ3x.gz",
-      "SourceId": "ToDoApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\YWfnJHFv.gz",
       "SourceId": "ToDoApp",
       "SourceType": "Computed",
@@ -7087,6 +6832,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.dll"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\zmi4V8NZ.gz",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\obj\\Debug\\net6.0\\build-gz\\zo5+kRnx.gz",
@@ -7427,6 +7189,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\wwwroot\\nothing-yet.png",
+      "SourceId": "ToDoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "nothing-yet.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\nothing-yet.png"
     },
     {
       "Identity": "D:\\t\\ToDo\\ToDoApp\\ToDoApp\\wwwroot\\pink.jpg",

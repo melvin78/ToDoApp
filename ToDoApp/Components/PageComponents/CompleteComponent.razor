@@ -1,0 +1,27 @@
+﻿@using ToDoApp.State.ToDo
+@using Fluxor
+@using ToDoApp.Models
+@inject IState<ToDoState> toDoState
+<section class="overflow-hidden">
+    <div class="container mx-auto py-4">
+        @if (toDoState.Value.ToDoItem?.Count(x => x.IsDone) == 0)
+        {
+            <NothingYet></NothingYet>
+        }
+        <div class="flex flex-wrap -m-4" style="overflow: auto; max-height: 400px;">
+
+            @if (toDoState.Value.ToDoItem is not null)
+            {
+                @foreach (var todo in toDoState.Value.ToDoItem.Where(x => x.IsDone))
+                {
+                    <Complete TaskName="@todo.Title"></Complete>
+                }
+            }
+
+        </div>
+    </div>
+</section>
+
+@code {
+
+}
