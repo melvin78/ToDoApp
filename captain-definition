@@ -1,5 +1,5 @@
  {
   "schemaVersion" :2 ,
-  "dockerfilePath" : "./ToDoApp/Dockerfile"
+  "dockerfilePath" : "./Dockerfile"
  }
 
