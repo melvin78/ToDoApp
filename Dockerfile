@@ -1,12 +1,15 @@
 ﻿FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["ToDoApp/ToDoApp.csproj","."]
-RUN dotnet restore ToDoApp.csproj
+COPY "ToDoApp.sln" "ToDoApp.sln"
+
+COPY ["ToDoApp/ToDoApp.csproj", "ToDoApp/"]
+
+RUN dotnet restore "ToDoApp/ToDoApp.csproj"
 COPY . .
-RUN dotnet build ToDoApp.csproj -c Release -o /app/build
+RUN dotnet build "ToDoApp/ToDoApp.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish ToDoApp.csproj -c Release -o /app/publish
+RUN dotnet publish "ToDoApp/ToDoApp.csproj" -c Release -o /app/publish
 
 FROM nginx:alpine AS final
 WORKDIR /usr/share/nginx/html
